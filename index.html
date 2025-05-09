@@ -1,125 +1,137 @@
-<header class="c-site-header">
-  <h1 style="text-align: center;">Welcome to My Homepage</h1>
-  <nav aria-label="Main Site Links" style="text-align: center;">
-  </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+            background-color: #f5f5dc; /* Light beige background */
+            font-family: sans-serif;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-<main style="display: flex; flex-direction: column; align-items: center;">
+        .c-site-header {
+            background-color: #a7c957; /* Soft green header */
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-  <h1 style="text-align: center;">Hello, I'm Elmugiera</h1>
-  <p style="text-align: center;">Thanks for visiting! This is where I share what I do</p>
-  
-  <div style="max-width: 420px; margin: 10px auto;">
-    <img src="https://img.freepik.com/free-vector/hand-drawn-peace-earth-card_23-2147522082.jpg?t=st=1746196670~exp=1746200270~hmac=367c6edc1b4dd5a9eec8960eb033bcbc54bba4392ae9e45f1cae75c0ec1a6024&w=740" alt="Hand-drawn peace on Earth card" style="width: 100%; height: auto; display: block;">
-  </div>
- 
-  <h2 style="text-align: center;">About Me</h2>
-  <p style="text-align: center;">I am deeply passionate about supporting vulnerable individuals and strengthening my local community. My work with asylum seekers involves providing crucial assistance and guidance as they navigate the complexities of the asylum process. I find it incredibly rewarding to help them feel safe and empowered during a challenging time in their lives. Additionally, I dedicate time to training new volunteers, equipping them with the skills and understanding necessary to make a meaningful impact. Witnessing their growth and commitment is truly inspiring. Beyond these roles, I actively seek out opportunities to support my community in various ways, whether through local initiatives or lending a hand where it's needed most. I believe in the power of connection and collective action to create a more compassionate and supportive environment for everyone.</p>
-  
- <h2 style="text-align: center;">What I Do</h2>
-  <ul style="list-style-position: inside; padding-left: 0; text-align: center;">
-    <li>Asylum Guides Coordinator</li>
-    <li>Arabic interpreter - various agencies</li>
-    <li>Volunteer Teacher - Wolverhampton</li>
-  </ul>
-  
- <div class="video-container" style="max-width: 420px; margin: 20px auto;">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/iuPtDGuhEU8?si=v1ucVcz9bb54NeIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> 
-  
- <h2 style="text-align: center;">Contact Me</h2>
-  <p style="text-align: center;">Email: elmugiera@example.com</p>
+        .c-site-header h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
 
-</main>
-body {
-  margin: 0;
-  height: 100%;
-  background-color: #f5f5dc; /* Light beige background */
-  font-family: sans-serif;
-  color: #333;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+        main {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff; /* White main content background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
-.c-site-header {
-  background-color: #a7c957; /* Soft green header */
-  color: #fff;
-  padding: 20px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
-}
+        h1 {
+            color: #2e7d32; /* Darker green heading */
+        }
 
-.c-site-header h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.5em;
-  margin: 0;
-}
+        h2 {
+            color: #1976d2; /* Blue subheading */
+        }
 
-main {
-  max-width: 800px;
-  padding: 20px;
-  background-color: #fff; /* White main content background */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+        }
 
-h1 {
-  color: #2e7d32; /* Darker green heading */
-}
+        ul li {
+            padding: 8px 15px;
+            margin-bottom: 5px;
+            background-color: #f0f8f0; /* Very light green list items */
+            border-radius: 5px;
+        }
 
-h2 {
-  color: #1976d2; /* Blue subheading */
-}
+        .video-container {
+            max-width: 420px;
+            margin: 20px auto;
+        }
 
-ul {
-  list-style-position: inside;
-  padding-left: 0;
-}
+        .video-container iframe {
+            width: 100%;
+            height: auto;
+        }
 
-ul li {
-  padding: 8px 15px;
-  margin-bottom: 5px;
-  background-color: #f0f8f0; /* Very light green list items */
-  border-radius: 5px;
-}
+        .image-container {
+            max-width: 420px;
+            margin: 10px auto;
+        }
 
-.video-container {
-  max-width: 420px;
-  margin: 20px auto;
-}
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
 
-.video-container iframe {
-  width: 100%;
-  height: auto;
-}
+        .c-site-footer {
+            background-color: #64b5f6; /* Light blue footer */
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="c-site-header">
+        <h1 style="text-align: center;">Welcome to My Homepage</h1>
+        <nav aria-label="Main Site Links" style="text-align: center;">
+        </nav>
+    </header>
 
-.image-container {
-  max-width: 420px;
-  margin: 10px auto;
-}
+    <main style="display: flex; flex-direction: column; align-items: center;">
 
-.image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+        <h1 style="text-align: center;">Hello, I'm Elmugiera</h1>
+        <p style="text-align: center;">Thanks for visiting! This is where I share what I do</p>
 
-.c-site-footer {
-  background-color: #64b5f6; /* Light blue footer */
-  color: #fff;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-}
+        <div style="max-width: 420px; margin: 10px auto;">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-peace-earth-card_23-2147522082.jpg?t=st=1746196670~exp=1746200270~hmac=367c6edc1b4dd5a9eec8960eb033bcbc54bba4392ae9e45f1cae75c0ec1a6024&w=740" alt="Hand-drawn peace on Earth card" style="width: 100%; height: auto; display: block;">
+        </div>
 
-<footer class="c-site-footer" style="text-align: center;">
-  <p>© 2025 Elmugiera. All rights reserved.</p>
-</footer> 
+        <h2 style="text-align: center;">About Me</h2>
+        <p style="text-align: center;">I am deeply passionate about supporting vulnerable individuals and strengthening my local community. My work with asylum seekers involves providing crucial assistance and guidance as they navigate the complexities of the asylum process. I find it incredibly rewarding to help them feel safe and empowered during a challenging time in their lives. Additionally, I dedicate time to training new volunteers, equipping them with the skills and understanding necessary to make a meaningful impact. Witnessing their growth and commitment is truly inspiring. Beyond these roles, I actively seek out opportunities to support my community in various ways, whether through local initiatives or lending a hand where it's needed most. I believe in the power of connection and collective action to create a more compassionate and supportive environment for everyone.</p>
+
+       <h2 style="text-align: center;">What I Do</h2>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: center;">
+            <li>Asylum Guides Coordinator</li>
+            <li>Arabic interpreter - various agencies</li>
+            <li>Volunteer Teacher - Wolverhampton</li>
+        </ul>
+
+       <div class="video-container" style="max-width: 420px; margin: 20px auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iuPtDGuhEU8?si=v1ucVcz9bb54NeIf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+       <h2 style="text-align: center;">Contact Me</h2>
+        <p style="text-align: center;">Email: elmugiera@example.com</p>
+
+    </main>
+
+    <footer class="c-site-footer" style="text-align: center;">
+        <p>© 2025 Elmugiera. All rights reserved.</p>
+    </footer>
+</body>
+</html>
